@@ -1,0 +1,79 @@
+.token-keyword1 {
+    -fx-fill: #db6a73; 		/* Green#FF00FF */
+}
+.token-keyword2 {
+    -fx-fill: #db6a73; 		/* 0300e5 */
+}
+.token-keyword3 {
+    -fx-fill: #db6a73; 		/* f4511e */
+}
+
+.token-comment-normal {
+    -fx-fill: #999999; 		/* FF0000 */
+}
+.token-comment-javadoc {
+    -fx-fill: #999999; 		/*FFFF66*/
+}
+.token-comment-standout { 
+    -fx-fill: #11FF44; 		/* 11FF44*/
+}
+
+.token-primitive {
+    -fx-fill: #db6a73; 		/*#FFFFFF*/
+}
+.token-string-literal {
+    -fx-fill: #81a66d; 		/*text*/
+}
+
+.token-char-literal{
+    -fx-fill: red;
+}
+
+.token-label {
+    -fx-fill: #ff38ff;		/* ff38ff */
+}
+.token-invalid {
+    -fx-fill: white;
+}
+/* Default text colour */
+.token-default {
+    -fx-fill: #5697ce; 		/* lightgrey */
+}
+
+.scope-colors {
+    -bj-background-color: #222b3b;			/*black  3c3f41 */
+
+    -bj-class-color: rgb(36, 44, 60);			/* (60, 7, 30) */
+    -bj-class-outer-color: rgb(36, 44, 60);		/* 67, 37, 67) */
+    -bj-class-inner-color: rgb(36, 44, 60);		/* 45, 25, 45 */
+
+    -bj-method-color: rgb(41, 49, 70);			/* (5, 5, 75 */
+    -bj-method-outer-color: rgb(41, 49, 70);		/* 40, 40, 50 rgb(142, 112, 4); */
+
+    -bj-selection-color: rgb(46, 54, 80);		/*22, 22, 7*/
+    -bj-selection-outer-color: rgb(46, 54, 80); 	/* rgb(67, 67, 45) */
+    -bj-selection-inner-color: rgb(46, 54, 80); 	/*nieuw*/
+
+    -bj-iteration-color: rgb(51, 59, 90);		/* 7, 22, 7 */
+    -bj-iteration-outer-color: rgb(51, 59, 90);		/* rgb(45, 78, 45); */
+
+    -bj-breakpoint-overlay-color: rgba(244, 81, 30, 0.3);
+    -bj-step-overlay-color: rgba(255, 255, 102,0.2)	/* rgba(235, 115, 235, 0.6); */
+}
+
+.moe-step-mark-icon {
+    -fx-fill: rgb(255, 255, 102);			/* rgb(235, 115, 235);*/
+    -fx-stroke: white;
+}
+
+.moe-editor-pane {
+    -fx-background-color: #222b3b; 			// outside of class body
+    -fx-highlight-fill: hsb(150, 60%, 40%);  		// highlight on mouse drag
+}
+
+.moe-find-result {
+    -rtfx-background-color: hsb(211, 20%, 99%); 	// not sure what this does... ctrl+f highlighting is managed by -fx-highlight-fill
+}
+.moe-editor-pane .caret {
+   -fx-stroke: white;					/*rgb(255, 200, 200);*/
+}
